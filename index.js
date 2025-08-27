@@ -13,10 +13,10 @@ app.use(cors());
 app.use(cookieParser());
 
 const db = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "",
-  database: "test_db"
+  host: "bmb61yyuqwfdfrajudor-mysql.services.clever-cloud.com",
+  user: "ug8xpsvp1h5nrsom",
+  password: "9jbtSNjDPlXLTApKuboA",
+  database: "bmb61yyuqwfdfrajudor"
 });
 
 // Registration endpoint (fixed)
