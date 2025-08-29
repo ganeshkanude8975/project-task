@@ -9,7 +9,7 @@ const salt = 10;
 const app = express();
 
 app.use(express.json());
-app.use(cors());
+app.use(cors({ origin: "https://frontend-8k1o.vercel.app", credentials: true }));
 app.use(cookieParser());
 
 const db = mysql.createConnection({
